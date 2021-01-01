@@ -126,6 +126,7 @@ class Game extends React.Component {
     if (easyOrHard == "hard") {
       return (
         <div>
+        <h1>Game with some changeAns</h1>
           <div style={{ backgroundColor: "#ee9ca7" }} ref={this.header}>
             <h1 className="text-center">THE GREAT</h1>
             <h1 className="text-center color">
